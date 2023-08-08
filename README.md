@@ -19,18 +19,12 @@ Reboot if necessary , if kernel update
 ```
 sudo reboot
 ```
-Basic Installtion Setup in Ubuntu
 
-### Install Net Tools
-```
-sudo apt install net-tools -y
-sudo systemctl enable ssh
-```
-Reboot after upgrade is best practice.
+## Basic Installtion Setup in Ubuntu
 
 ### Install Docker
 ```
-sudo apt install -y docker
+sudo apt install docker.io docker-compose net-tools -y
 sudo service docker start
 sudo docker pull playsms/playsms:1.4.5
 sudo docker run -d -p 80:80 playsms/playsms
