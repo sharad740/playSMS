@@ -1,5 +1,15 @@
 # playSMS Installation
 
+Setup User for VPS login and 
+Make sure to have user with sudo access
+```
+sudo adduser jarvis
+sudo usermod -aG sudo jarvis
+sudo ls /root
+su - jarvis
+sudo ls /root
+```
+
 Basic Installtion Setup in Ubuntu
 
 ### Install Net Tools
