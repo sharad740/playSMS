@@ -12,21 +12,17 @@ sudo ls /root
 
 Perform system update and upgrade
 ```
-sudo apt update
-sudo apt upgrade -y 
+sudo apt update && sudo apt upgrade -y 
 ```
 
 Reboot if necessary , if kernel update
 ```
 sudo reboot
 ```
-
-
 Basic Installtion Setup in Ubuntu
 
 ### Install Net Tools
 ```
-sudo apt update && sudo apt upgrade -y
 sudo apt install net-tools -y
 sudo systemctl enable ssh
 ```
