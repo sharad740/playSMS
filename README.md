@@ -10,6 +10,18 @@ su - jarvis
 sudo ls /root
 ```
 
+Perform system update and upgrade
+```
+sudo apt update
+sudo apt upgrade -y 
+```
+
+Reboot if necessary , if kernel update
+```
+sudo reboot
+```
+
+
 Basic Installtion Setup in Ubuntu
 
 ### Install Net Tools
